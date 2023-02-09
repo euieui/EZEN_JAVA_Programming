@@ -2,6 +2,7 @@ package days06;
 
 import java.util.Scanner;
 
+
 public class ControllOpQuestionMartk {
 
 	public static void main(String[] args) {

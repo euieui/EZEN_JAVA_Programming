@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ControllOpIf10 {
 
+	
 	public static void main(String[] args) {
 		// 실습 예제
 		// 년도를 입력받아서 입력한 년도가 윤년인지 평년인지를 출력하는

@@ -2,6 +2,7 @@ package days07;
 
 public class ControllOpFor17 {
 
+	
 	public static void main(String[] args) {
 		// 1부터 100사이의 소수 (Prime Number) 를 출력하세요
 		// 1과 자기자신 

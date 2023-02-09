@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ControllOpFor12 {
 
+	
 	public static void main(String[] args) {
 		// 두개의 숫자를 입력 받아
 		Scanner sc = new Scanner(System.in);

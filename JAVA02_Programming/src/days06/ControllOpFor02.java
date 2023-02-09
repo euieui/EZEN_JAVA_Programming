@@ -2,6 +2,7 @@ package days06;
 
 public class ControllOpFor02 {
 
+	
 	public static void main(String[] args) {
 		int i;
 		// 1부터 100사이의 정수 출력

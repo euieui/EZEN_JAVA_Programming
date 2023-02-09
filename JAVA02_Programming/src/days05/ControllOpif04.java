@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ControllOpif04 {
 
+	
 	public static void main(String[] args) {
 		int year;
 		int na;

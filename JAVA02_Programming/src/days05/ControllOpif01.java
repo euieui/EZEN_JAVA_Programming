@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ControllOpif01 {
 
+	
 	public static void main(String[] args) {
 		
 		// 사용자로 부터 정수 하나를 입력 받습니다.

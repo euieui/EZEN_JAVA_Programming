@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ControllOpIf09 {
 
+	
 	public static void main(String[] args) {
 		// 2021년 1월 1일은 금요일입니다.
 		// 2021년 한해서 월과 일을 입력 받고,

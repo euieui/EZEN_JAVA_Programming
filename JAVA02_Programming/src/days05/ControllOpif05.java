@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ControllOpif05 {
 
+	
 	public static void main(String[] args) {
 		int a;
 		Scanner sc = new Scanner(System.in);

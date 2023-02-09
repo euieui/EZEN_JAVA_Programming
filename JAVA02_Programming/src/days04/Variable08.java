@@ -2,6 +2,7 @@ package days04;
 
 public class Variable08 {
 
+	
 	public static void main(String[] args) {
 		// 문자 타입의 변수 초기화 : 하나의 글자를 다른 데이터와 구분하기 위해 (' ')
 		// 작은 따옴표를 사용합니다

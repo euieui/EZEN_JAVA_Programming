@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class study02 {
 
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// 판매실적금액에 과장 50%, 대리 25%, 사원 15%의 활동비를 합산하여 출력

@@ -2,6 +2,7 @@ package days06;
 
 public class ControllOpFor03 {
 
+	
 	public static void main(String[] args) {
 		// 1부터 , 10까지의 합
 		int i;

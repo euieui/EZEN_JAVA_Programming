@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class study {
 
+	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.printf("정수 하나를 입력 : ");

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Variable07 {
 
+	
 	public static void main(String[] args) {
 		// (입력)
 		// 포장할 사과의 갯수를 입력하세요 : xx

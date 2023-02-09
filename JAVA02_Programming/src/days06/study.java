@@ -2,6 +2,7 @@ package days06;
 
 public class study {
 
+	
 	public static void main(String[] args) {
 
 		int k = 0;
