@@ -4,7 +4,7 @@ public class Operator02 {
 
 	public static void main(String[] args) {
 		// 연산에 사용할 변수선언 및 값의 초기화
-		// 초기화 : 변수 생성후 처음 값을 넣은 동작
+		// 초기화 : 변수 생성후 처음 값을 넣은 동작 와우
 		int n = 50;
 		double d= 50.0;
 		System.out.printf("n의 최초값 : %d\n",n);

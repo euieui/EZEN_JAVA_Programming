@@ -5,7 +5,7 @@ public class Operator01 {
 	public static void main(String[] args) {
 		// 산술-사(오)칙연산자 : +, -, /, *, %
 		// 관계연산자-비교연산자 : >, <, >=, <=, ==, !=      --- 등호는 무조건 뒤에다가 써야한다
-		// 논리 연산자) &&(And), ||(Or), !(Not)
+		// 논리 연산자) &&(And), ||(Or), !(Not) 와우
 		
 		// 산술연산자 +, -, *, /, %
 		int n1 = 10, n2= 7, result1;
