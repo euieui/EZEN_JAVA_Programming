@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Variable03 {
 
+	
 	public static void main(String[] args) {
 		int num1, num2;
 		double result1;

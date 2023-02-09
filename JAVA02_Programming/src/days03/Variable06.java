@@ -2,6 +2,7 @@ package days03;
 
 public class Variable06 {
 
+	
 	public static void main(String[] args) {
 		// 정수형 : byte(1), short(2), int(4 - 기본형) -21억~21억, long(8)
 		// 실수형 : float(4), double(8 - 기본형)

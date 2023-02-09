@@ -2,6 +2,7 @@ package days02;
 
 public class Println01 {
 
+	
 	public static void main(String[] args) {
 		//  println() 은 printf("\n") 와 같은 동작을 합니다.
 		// println 은 \n 이 없어도 모든 출력 후 줄바꿈을 한번 실행해 줍니다.

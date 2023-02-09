@@ -2,6 +2,7 @@ package days02;
 
 public class Printf01 {
 
+	
 	public static void main(String[] args) {
 		// 출력하고자 하는 내용을 "" 안에 자유롭게 구성하여 출력할 수 있습니다.
 		// 숫자와 문자가 조합된 출력물을 화면에 출력합니다

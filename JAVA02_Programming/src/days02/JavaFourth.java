@@ -9,5 +9,6 @@ public class JavaFourth {
 		System.out.printf("2\tGildong\t67\t76\t66\t288\t77.5\n");
 		System.out.printf("3\tGilbook\t78\t65\t77\t267\t89.5\n");
 		System.out.printf("--------------------------------------------------\n");
+		
 	}
 }

@@ -4,6 +4,7 @@ import java.util.Scanner; // --- 추가가 됨
 
 public class Variable02 {
 
+	
 	public static void main(String[] args) {
 		int num1, num2;
 		int result1 ; // 덧셈, 뺄셈, 곱셈의 결과를 저장할 변수

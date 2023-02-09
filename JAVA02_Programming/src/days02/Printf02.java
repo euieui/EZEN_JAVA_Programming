@@ -2,6 +2,7 @@ package days02;
 
 public class Printf02 {
 
+	
 	public static void main(String[] args) {
 		// printf 안에서  %와  d , f, s 사이에 숫자옵션을 넣어서 표시할 자리수를 
 		// 조절합니다

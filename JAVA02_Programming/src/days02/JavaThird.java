@@ -7,6 +7,7 @@ package days02;
 public class JavaThird {
 // 자바 프로그램은 반드시  하나의 public  class 를 포함합니다.
 	
+	
 	// 클래스내부에는 프로그램의 시작과 끝을 주관하는 public static void main()이
 	// 있어야 실행이 가능합니다. 그외 클래스안에 쓰여지는 부수적인 내용은 
 	// 진도가 진행됨에 따라 차례로 학습합니다

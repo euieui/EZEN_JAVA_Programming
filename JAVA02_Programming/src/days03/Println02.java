@@ -2,6 +2,7 @@ package days03;
 
 public class Println02 {
 
+	
 	public static void main(String[] args) {
 		// Printf03 에서 만들었떤 성적표를 Println 명령을 이용하여 출력해주세요
 		// 숫자들의 오른쪽 정렬은 하지 않아도 됩니다.

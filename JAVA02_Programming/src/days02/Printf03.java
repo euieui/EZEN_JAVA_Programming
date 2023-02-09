@@ -2,6 +2,7 @@ package days02;
 
 public class Printf03 {
 
+	
 	public static void main(String[] args) {
 		// JavaFourth.java  에 출력했던 성적표를  정확한 총점과, 평균을 계산하여
 		// 출력하세요.  

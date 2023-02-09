@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class study {
 
+	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("밑변의 길이를 입력하시오. : ");

@@ -2,6 +2,7 @@ package days02;
 
 public class JavaSixth {
 
+	
 	public static void main(String[] args) {
 		System.out.printf("군사법원의 조직\\권한 및 재판관의");
 		System.out.printf("\b\b\b\b\b\b자격은 \"법률\"로 정한다.\n");
