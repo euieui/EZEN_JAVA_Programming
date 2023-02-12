@@ -18,6 +18,8 @@ class StaticA{
 
 
 
+
+
 public class Class17 {
 
 	public static void main(String[] args) {
