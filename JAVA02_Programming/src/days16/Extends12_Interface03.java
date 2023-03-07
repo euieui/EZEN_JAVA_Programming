@@ -44,7 +44,7 @@ public class Extends12_Interface03 {
 	public static void main(String[] args) {
 		// 부모인터페이스의 레퍼런스 변수에 자식클래스의 객체를 대입
 		InterC_Super1 s1 = new SubC2();
-		InterC_Super2 s2 = new SubC2();
+		InterC_Super2 s2 = new SubC2(); // -- 아직도 이렇게 다형성을 하는 이유를 확실히 잘 안느껴짐
 		InterC_Sub s3 = new SubC2();
 		// 인터페이스를 다중 상속한 경우 부모 인터페이스는 자신의 추상메소드만을
 		// 접근할 수 있습니다.

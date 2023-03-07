@@ -41,7 +41,8 @@ public class Extends06 {
 	public static void main(String[] args) {
 		// SuperD d =new SuperD();
 		SubD d = new SubD();
-
+		System.out.println();
+		SubD a = new SubD(1.1);
 	}
 
 }

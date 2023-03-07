@@ -65,7 +65,7 @@ public class Collection01 {
 		a.set(2, 100); //인덱스 매개변수를 추가하여 데이터 삽입 가능 - set 는 기존값을 지우고 대입
 		System.out.println();
 		for(int i = 0 ; i<a.size(); i++)
-			System.out.printf("v[%d] = %d\t\t",i,a.get(i));
+			System.out.printf("a[%d] = %d\t\t",i,a.get(i));
 		
 		a.add(2,300); // add는 기존값들을 뒤로 밀고 중간에 삽입
 		System.out.println();

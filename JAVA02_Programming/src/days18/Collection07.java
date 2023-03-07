@@ -41,7 +41,7 @@ public class Collection07 {
 		Enumeration<String> e1 = ht.keys();
 		while(e1.hasMoreElements()) {
 			// 키 값을 추출
-			String key = e1.nextElement(); // 키값을 얻어내고
+			String key = e1.nextElement(); // 키값을 얻어내고 알아두자!
 			int value = ht.get(key);  // 키 값으로 검색한 밸류값을 얻어냅니다
 			System.out.printf("key(%s)=Value(%d)  ", key,value);
 		}

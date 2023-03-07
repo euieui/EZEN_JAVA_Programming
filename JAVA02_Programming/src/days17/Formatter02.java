@@ -14,13 +14,13 @@ public class Formatter02 {
 		String s1 = "2020-11-24";
 		String s2 = "2020/11/24"; 
 		
-		Date d = sdf1.parse(s1);  /// --- 첫번째 throws ParseExcpetion 했는데 그것도 해결 안된다~
+		// Date d = sdf1.parse(s1);  /// --- 첫번째 throws ParseExcpetion 했는데 그것도 해결 안된다~
 												///---- 에러처리 예외처리 ~~!! 나주엥배운다 2번재 경고문은 나중에 배움~
 		
 		// SimpplDateFormat에는 parse메서드를 이용하여 문자열을 날짜로 변환해주는 기능이 있습니다
 		// 다만 변환을 위해서는 설정된 서식을 반드시 지켜야하는 제약이 있습니다.
 		
-		// Date d = sdf1.parse(s2);
+		Date d = sdf1.parse(s2);
 		System.out.println(sdf2.format(d));
 		
 		

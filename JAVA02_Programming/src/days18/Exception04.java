@@ -4,7 +4,7 @@ public class Exception04 {
 
 	public static void main(String[] args) {
 		try {
-			// 예외상황 고의 발생
+			// 예외상황 고의 발생 이게 필요할때가 있나?
 			ArithmeticException e = new ArithmeticException("ArithmeticException 고의 발생");
 			throw e;
 		}catch(ArithmeticException e) {

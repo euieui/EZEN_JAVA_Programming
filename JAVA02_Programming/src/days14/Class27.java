@@ -14,7 +14,7 @@ class Student{
 	Student (int a, int b, int c ){
 		score = new int[3];
 		bun = ++ count;
-		name = "std-" + bun;
+		name = "std-" + bun; // 여기서부터 위 3줄은 this()로 대체 가능?
 		score[0] = a; score[1] = b; score[2] =c;
 	}
 }

@@ -1,4 +1,4 @@
-package days15;  // 반드시 시험
+package days15;  // 반드시 시험 매우매우 중요
 
 import java.util.Vector;
 

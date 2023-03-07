@@ -25,7 +25,7 @@ public class Extends09_TypeCasting02 {
 		// 자식 <- 부모 X		  // --- 자식에게 부모를 맡기는건 X
 		
 		// 3. 1번에서 자식 인스터스를 저장하고 있는  부모 레퍼런스는 
-		// 		부모가 상속해준 멤버변수에만 접근이 가능합니다.
+		// 		부모가 상속해준 멤버변수에만 접근이 가능합니다. 이거중요
 		
 		SuperF super2 = new SubF();
 		super2.superNum = 100; // O

@@ -25,6 +25,10 @@ public class Formatter03 {
 		number = 123456789.0;
 		df = new DecimalFormat("0,000");   // 천단위 구분기호 표시 패턴 0,000,000  ///--- 알아서 해주나봄
 		System.out.printf("%19s : %f -> %s\n","0,000",number,df.format(number));
+		System.out.println();
+		System.out.printf("해보자 %s ",df.format(number) );
+		System.out.println();
+		
 		
 		number = 89.0;
 		System.out.printf("%19s : %f -> %s\n","0,000",number,df.format(number));  /// --- 단점 89만 나오면 되는데 0,089가 나옴

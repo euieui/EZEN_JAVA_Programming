@@ -25,9 +25,9 @@ public class Class24 {
 		System.out.printf("StaticD.count = %d\n",StaticD.getCount());
 		StaticD d1 = new StaticD();
 		System.out.printf("StaticD.count = %d\n",d1.getCount1());
-		d1.setCount1(15);
+		d1.setCount1(16);
 		System.out.printf("StaticD.count = %d\n",d1.getCount1());
-		
+		System.out.printf("StaticD.count = %d\n",StaticD.getCount());
 	}
 
 }

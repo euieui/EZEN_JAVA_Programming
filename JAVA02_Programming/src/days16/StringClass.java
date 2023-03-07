@@ -32,7 +32,7 @@ public class StringClass {
 
 		// 3.
 		String n = "0123456789";
-		char c1 = n.charAt(0);
+		char c1 = n.charAt(0); // -- 이거 낯설어 좀 보자
 		char c2 = n.charAt(5);    // 괄호안에 정수값 번째의 글자를 얻음. (0부터 시작)
 		System.out.println("3. " + c1 + " " + c2);
 		/// -- 이것도 역시 public class String 에서 public char charAt(int n){} 이라는 메서드가 있는거고
@@ -65,7 +65,7 @@ public class StringClass {
 		
 		// 6. 
 		s = new String("abcdefg");
-		boolean b = s.contains("bc");
+		boolean b = s.contains("bc"); // 외워라
 		// 괄호안의 문자열이 메서드 호출 객체가 갖고 있는 문자열의 일부로 포함되어
 		// 있다면 true 를 리턴해주는 메서드.
 		// boolean b = new String("abcdefg").contanins("bc");
@@ -74,7 +74,7 @@ public class StringClass {
 		
 		// 7. 
 		s = new String("Hello.txt");
-		b = s.endsWith("txt");    ///---- s.startsWith 도 있단 말씀
+		b = s.endsWith("txt");    ///---- s.startsWith 도 있단 말씀 이것도 외워라
 		// 메서드 호출 객체가 갖고 있는 문자열이 괄호안의 문자열로 끝나면 true 를 
 		// 리턴해주는 메서드
 		System.out.println("\n7. 문자열 " +s+ "눈 \"txt\"로 끝난다 ? " +b);
@@ -127,15 +127,17 @@ public class StringClass {
 		
 		// 12.
 		String animal = "dog,cat,bear";
-		String [] a = animal.split(",");
+		String [] a = animal.split(","); // 이것도 외워
 		// ',' 를 기준으로 문자열을 분리 - 문자열 배열로 만듬
 		System.out.print("\n12. ");
 		for(int i = 0; i<a.length ; i++) System.out.printf("%s ", a[i]);
+		System.out.println();
+		for( String j : a) System.out.printf(j + " ");
 		
 		// 13.
 		s = "java.lang.Object";
 		s2 = s.substring(5,9); /// ---뒷숫자는 1부터시작이라생각하면 될려나
-		// 원본에서 다섯번째 (0부터시작)부터 8번째(9-1)까지 추출
+		// 원본에서 다섯번째 (0부터시작)부터 8번째(9-1)까지 추출 // 즉 9-5 로 4글자 추출?
 		System.out.println("\n\n13. "+s2);
 		s2 = s.substring(10); // 원본에서 열번째 글자부터(0부터시작) 끝까지추출
 		System.out.println("13. "+s2);

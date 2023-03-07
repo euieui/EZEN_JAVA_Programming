@@ -26,7 +26,7 @@ public class Collection06 {
 			System.out.printf("%d ",iter.next());
 		}
 		// 제어권을 넘겨받아서 위와 같이 한번 리스트를 모두 순회하면,
-		// iter = lotto.iterator(); 를 통해서 다시 방문 필요할때 제어권을 다시 얻어내야 합니다.   ///--- 이게 뭔소리다냥
+		// iter = lotto.iterator(); 를 통해서 다시 방문 필요할때 제어권을 다시 얻어내야 합니다.   ///--- 이게 뭔소리다냥 dz
 		System.out.println();
 		
 		// 2. for문을 사용하는 방법(개선된 형태)
@@ -40,7 +40,7 @@ public class Collection06 {
 		
 		// 해쉬세트 콜렉션에는 sort 메서드가 없습니다. 따라서 링크드 리스트
 		// 부모클래스인 List 클래스에 전해줘서 리스트 변환과정을 거치고,
-		// Collections.sort 로 정렬을 수행하여야 합니다.
+		// Collections.sort 로 정렬을 수행하여야 합니다. 봐두기
 		List list = new LinkedList(lotto);
 		Collections.sort(list);
 		System.out.println(list);          ///--- 자바 정말 복잡하게 만들었네..

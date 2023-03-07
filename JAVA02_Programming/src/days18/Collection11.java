@@ -36,6 +36,8 @@ public class Collection11 {
 		System.out.printf("\n(30, 30)의 유무 : %b\n", map.containsKey(new Rect(30,30)));  ///--- 이건진자 모르겠는데..
 																															/// --- 해쉬 연산에 의해서 뭔가 다른가봄! 이건 모르겠네 어디서 배워야해?
 																															//-- 아니 왜 true 가나오는지 이해가 안돼
+		// 별거아니다 ArrayList 는 equals 오버라이딩 Hash 들은 hashCode()를 오버라이딩
+		
 		// Hash 알고리즙을 기반으로 구현된 클래스에서는 equals 메소드가 호출되지 않는 문제점이 있습니다.
 		
 		// Hash 기반의 클래스에서 키 값의 중복을 제거하기 위해서 실행되는 과정(키값이 사용자 정의 클래스 객체일때)
